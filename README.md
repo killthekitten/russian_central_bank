@@ -28,7 +28,7 @@ Or install it yourself as:
     # Load today's rates
     bank.update_rates
     # Or you can specify the date
-    bank.update_rates(3.days.ago)
+    bank.update_rates(2.days.ago)
 
     Money.default_bank = bank
 
